@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "TCMPPExtMiniGame",
-            targets: ["TCMPPExtMiniGameWrapper"]
+            targets: ["TCMPPExtMiniGame", "TCMPPExtMiniGameWrapper"]
         )
     ],
     dependencies: [
